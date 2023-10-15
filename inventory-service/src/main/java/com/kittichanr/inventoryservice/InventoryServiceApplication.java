@@ -23,7 +23,7 @@ public class InventoryServiceApplication {
 
             Inventory inventory1 = new Inventory();
             inventory1.setSkuCode("Iphone15_Pro_max");
-            inventory1.setQuantity(5);
+            inventory1.setQuantity(0);
 
             inventoryRepository.save(inventory);
             inventoryRepository.save(inventory1);
